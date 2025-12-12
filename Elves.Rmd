@@ -34,7 +34,7 @@ output:
 ## Example Solution
 
 - Research and estimate hours needed per present (on average)
-    - e.g. 2 hrs (get a source) 
+    - e.g. 2 hrs (elves are magic fight me) 
 
 - Research average working days in a year
     - 260
