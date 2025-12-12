@@ -1,0 +1,103 @@
+---
+title: test
+author: a
+date: Winter 2025
+output:
+  ioslides_presentation:
+    incremental: true
+    widescreen: true
+
+---
+
+
+
+<!-- Global -->
+<style>
+.reveal .slides {
+    color: #213d25ff;
+  background-color: rgba(158, 201, 163, 1);
+}
+</style>
+
+## How many elves should it take to make all the presents for the uk.
+
+- Assumptions 
+  - They work from 1 January to the 24 of December 
+  - 9 to 5 
+  - 5 days a week
+  - Each child under 16 gets 3 presents.
+  - You make assumptions for everything else based on research
+    - E.g. how long each present takes on average 
+
+
+
+## Example Solution
+
+- Research and estimate hours needed per present (on average)
+    - e.g. 2 hrs (get a source) 
+
+- Research average working days in a year
+    - 260
+
+- calculate - Elf present output
+    -  Elf present output = days they can work * 8 hours / hours needed per present (on average)
+    -  Elf present output = (260 * 8) / 2
+    -  Elf present output = 1040
+
+
+
+## Example Solution pt 2
+
+- Research/Calculate quantity of population under 16
+    - Poputaion of uk is 69,729,988 (https://www.worldometers.info/world-population/uk-population/)
+    - 19.5 % under 16 (https://lginform.local.gov.uk/reports/lgastandard?mod-metric=3288&mod-area=E92000001&mod-group=AllRegions_England&mod-type=namedComparisonGroup)
+    - ∴ quantity of children under 16 = 69,729,988 * 0.195
+    - quantity of children under 16 = 13597347.7
+    - 13597348
+
+
+## Example Solution pt 3
+
+- Calculate - presents needed
+    - presents needed = children under 16 * 3 presents 
+    - presents needed = 13597348 * 3
+    - presents needed = 40792044
+
+- Calculate - elves required 
+    - elves required = presents needed / elf present output 
+    - elves required = 40792044 / 1040
+    - elves required = 39223.1192
+    - elves required = 39224
+
+
+
+
+---
+title: "Christmas"
+output: html_document
+date: "2025-12-05"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
