@@ -66,3 +66,36 @@ output:
     - elves required = 39223.1192
     - elves required = 39224
 
+
+# Your Task
+
+## Winter Gift Bringers
+
+- There are many winter gift-bringers around the world.
+- Assume that each person who "believes" requires a visit, and a gift brought, by one gift-bringer.
+  - Each gift-bringer's survival depends on people believing in them. 
+    - Belief increases if the gift bringer pays a visit, and increases more (how much?) if the gift-bringer aligns with the individuals religious / cultural views. 
+    - Belief decreases with no visit, and decreases more (how much?) if an expected visit is missed. 
+  - If a second gift-bringer arrives, the individual will turn them away, and won't believe in them.
+  - If a gift-bringer strongly opposes a person's cultural or religious view, then the person may be offended and belief decreases. 
+
+## Winter Gift Bringers
+
+- Choose at least three and work out how they can divide up gift-bringing duties such that
+  - Each person receives a visit between 00:00 and 07:00 on the morning of their respective celebration day*. 
+  - All gift-bringers survive Christmas night. 
+
+## A few examples of gift bringers
+
+- "Old man": (Santa Claus, St Nick, Father Christmas, St Basil, Grandfather Frost)
+- Christchild (Jesus, Three Kings)
+- Crampus (punishes naughty children with birch rods).
+- Any others you'd like to include. 
+- Note that different gift-bringers visit on different days (6 Dec, 25 Dec, 1 Jan, 6 Jan).
+
+## You may want to think about:
+
+- Travel time / means of travel / cost (fuel, reindeer food, etc)
+- Procurement / manufacture of gifts.
+- "Belief utility function", who to visit to maximise belief and ensure survival. 
+- Should gift-bringers team up or compete?
