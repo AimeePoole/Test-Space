@@ -1,15 +1,12 @@
 ---
-title: test
-author: a
+title: Christmas
+author: Elizee
 date: Winter 2025
 output:
   ioslides_presentation:
     incremental: true
     widescreen: true
-
 ---
-
-
 
 <!-- Global -->
 <style>
@@ -70,34 +67,35 @@ output:
     - elves required = 39224
 
 
+# Your Task
 
+## Winter Gift Bringers
 
----
-title: "Christmas"
-output: html_document
-date: "2025-12-05"
----
+- There are many winter gift-bringers around the world.
+- Assume that each person who "believes" requires a visit, and a gift brought, by one gift-bringer.
+  - Each gift-bringer's survival depends on people believing in them. 
+    - Belief increases if the gift bringer pays a visit, and increases more (how much?) if the gift-bringer aligns with the individuals religious / cultural views. 
+    - Belief decreases with no visit, and decreases more (how much?) if an expected visit is missed. 
+  - If a second gift-bringer arrives, the individual will turn them away, and won't believe in them.
+  - If a gift-bringer strongly opposes a person's cultural or religious view, then the person may be offended and belief decreases. 
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+## Winter Gift Bringers
 
-## R Markdown
+- Choose at least three and work out how they can divide up gift-bringing duties such that
+  - Each person receives a visit between 00:00 and 07:00 on the morning of their respective celebration day*. 
+  - All gift-bringers survive Christmas night. 
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+## A few examples of gift bringers
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+- "Old man": (Santa Claus, St Nick, Father Christmas, St Basil, Grandfather Frost)
+- Christchild (Jesus, Three Kings)
+- Crampus (punishes naughty children with birch rods).
+- Any others you'd like to include. 
+- Note that different gift-bringers visit on different days (6 Dec, 25 Dec, 1 Jan, 6 Jan).
 
-```{r cars}
-summary(cars)
-```
+## You may want to think about:
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+- Travel time / means of travel / cost (fuel, reindeer food, etc)
+- Procurement / manufacture of gifts.
+- "Belief utility function", who to visit to maximise belief and ensure survival. 
+- Should gift-bringers team up or compete?
